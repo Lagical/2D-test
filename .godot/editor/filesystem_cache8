@@ -1,6 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1697669988
+::res://::1697726208
 icon.svg::CompressedTexture2D::8721190195632217607::1697539916::1697539929::1::::<><>::
+label.gd::GDScript::-1::1697671785::0::1::::<>Area2D<>::
+label.tscn::PackedScene::582621594164839004::1697672031::0::1::::<><>::res://label.gd<>uid://bta6x8tlxknm1::::res://art/playerGrey_up1.png<>uid://ravbj60v6755::::res://art/playerGrey_up2.png<>uid://bxnswsg5uxe01::::res://art/playerGrey_walk1.png<>uid://lulc7g3b7mea::::res://art/playerGrey_walk2.png
 ::res://art/::1697669988
 enemyFlyingAlt_1.png::CompressedTexture2D::6023838802305203005::1697669988::1697669988::1::::<><>::
 enemyFlyingAlt_2.png::CompressedTexture2D::5066349248911137601::1697669988::1697669988::1::::<><>::
