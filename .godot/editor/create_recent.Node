@@ -1,5 +1,11 @@
-AudioStreamPlayer
+TileMap
+CollisionShape2D
+RigidBody2D
+AnimatedSprite2D
+CharacterBody2D
 ColorRect
+Sprite2D
+AudioStreamPlayer
 Timer
 Label
 Button
@@ -9,7 +15,4 @@ Path2D
 Marker2D
 Node
 VisibleOnScreenNotifier2D
-CollisionShape2D
-AnimatedSprite2D
-RigidBody2D
 Area2D
