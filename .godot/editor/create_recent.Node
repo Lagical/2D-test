@@ -1,3 +1,5 @@
+RemoteTransform2D
+Camera2D
 TileMap
 CollisionShape2D
 RigidBody2D

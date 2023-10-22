@@ -1,10 +1,7 @@
-res://platform.tscn
-res://player.tscn
-res://main.tscn
-res://main.gd
 res://player1.tscn
 res://mob.tscn
+res://main.tscn
 res://hud.tscn
 res://levels.tscn
-res://player1.gd
+res://player.tscn
 res://player.gd
