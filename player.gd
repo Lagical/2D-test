@@ -5,6 +5,7 @@ var SPEED = 300.0
 const default_speed = 300.0
 const JUMP_VELOCITY = -400.0
 var jump_tracker = 0
+var multi_jump = 0
 
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
@@ -17,13 +18,20 @@ func _physics_process(delta):
 	if Input.is_action_pressed("jump") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
 		jump_tracker += 1
-		print(velocity.length())
+		multi_jump += 1
 		if velocity.length() > 400 && jump_tracker > 1:
 			SPEED += 25
 		elif velocity.length() == 400 && jump_tracker > 1:
-			print("toimi")
 			SPEED = default_speed
 			jump_tracker = 0
+		else:
+			pass
+	
+	if Input.is_action_pressed("jump") && not is_on_floor():
+		print(multi_jump)
+		print("toimi")
+		velocity.y = JUMP_VELOCITY
+		multi_jump = 0
 
 	var direction = Input.get_axis("move_left", "move_right")
 	if direction:
