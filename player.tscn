@@ -31,11 +31,11 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_unga1"]
-radius = 54.0
-height = 138.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ngrfg"]
+size = Vector2(55, 31)
 
 [node name="player" type="CharacterBody2D"]
+position = Vector2(1, -8)
 script = ExtResource("1_7ndtu")
 metadata/_edit_group_ = true
 
@@ -44,4 +44,5 @@ sprite_frames = SubResource("SpriteFrames_6lrh3")
 animation = &"walk"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CapsuleShape2D_unga1")
+position = Vector2(-1.5, 52.5)
+shape = SubResource("RectangleShape2D_ngrfg")
