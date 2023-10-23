@@ -1,10 +1,11 @@
+Node
+CharacterBody2D
 RemoteTransform2D
 Camera2D
 TileMap
 CollisionShape2D
 RigidBody2D
 AnimatedSprite2D
-CharacterBody2D
 ColorRect
 Sprite2D
 AudioStreamPlayer
@@ -15,6 +16,5 @@ CanvasLayer
 PathFollow2D
 Path2D
 Marker2D
-Node
 VisibleOnScreenNotifier2D
 Area2D
