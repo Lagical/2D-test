@@ -19,6 +19,8 @@ var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 func _physics_process(delta):
 	
+	print(SPEED)
+	
 	time_since_dash += delta
 	time_to_dash += delta
 	
@@ -49,12 +51,9 @@ func _physics_process(delta):
 	if time_to_dash > 0.5:
 		dash = 0
 	
-	print(dash)
-	
 	if dashing == false:
 		velocity.x = direction * SPEED
 		if Input.is_action_just_pressed("dash") && can_dash == true && dash == 2:
-			print("???")
 			velocity.x = direction * 3000
 			time_since_dash = 0
 			dashing = true
