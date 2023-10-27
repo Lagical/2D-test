@@ -1,5 +1,5 @@
-Node
 CharacterBody2D
+Node
 RemoteTransform2D
 Camera2D
 TileMap
