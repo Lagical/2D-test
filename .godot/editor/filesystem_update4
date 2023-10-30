@@ -1,7 +1,9 @@
-res://levels.tscn
-res://player.gd
+res://hook.tscn
+res://hook.gd
 res://player1.tscn
 res://mob.tscn
 res://main.tscn
 res://hud.tscn
+res://levels.tscn
 res://player.tscn
+res://player.gd

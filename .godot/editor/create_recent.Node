@@ -1,3 +1,5 @@
+Sprite2D
+Area2D
 CharacterBody2D
 Node
 RemoteTransform2D
@@ -7,7 +9,6 @@ CollisionShape2D
 RigidBody2D
 AnimatedSprite2D
 ColorRect
-Sprite2D
 AudioStreamPlayer
 Timer
 Label
@@ -17,4 +18,3 @@ PathFollow2D
 Path2D
 Marker2D
 VisibleOnScreenNotifier2D
-Area2D

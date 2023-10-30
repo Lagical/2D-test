@@ -71,10 +71,10 @@ func jump(delta):
 				speed += 25
 		if is_on_wall() && Input.is_action_pressed("move_right"):
 			velocity.y = jump_speed
-			velocity.x = -2000
+			velocity.x = -200
 		if is_on_wall() && Input.is_action_pressed("move_left"):
 			velocity.y = jump_speed
-			velocity.x = 2000
+			velocity.x = 200
 	
 	#stops bunny hopping	
 	if velocity.x != 0 && velocity.y == 0:
@@ -89,8 +89,8 @@ func wall_slide(delta):
 	else:
 		wall_sliding = false	
 	if wall_sliding:
-		velocity.y += (50 * delta)
-		velocity.y = min(velocity.y, 50)
+		velocity.y += (100 * delta)
+		velocity.y = min(velocity.y, 100)
 		print(velocity.y)
 	
 	
